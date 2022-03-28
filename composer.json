@@ -1,0 +1,19 @@
+{
+    "name": "sgongora/curso-framework-php",
+    "description": "Proyecto basico de franwork",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "samgongora26",
+            "email": "saul.santiago2426@gmail.com"
+        }
+    ],
+    "require": {}
+}
