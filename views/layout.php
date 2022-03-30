@@ -14,6 +14,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
             <div class="container">
                 <a href="/" class="navbar-brand h1">Framework</a>
+                <ul class="navbar-nav mr-auto">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="Contact" class="nav-link">Contact</a> 
+                </ul>
             </div>
             
         </nav>

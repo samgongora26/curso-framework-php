@@ -16,8 +16,8 @@ class Response{
     public function send(){
         $view = $this->getView();
 
-        $viewContent = file_get_contents(__DIR__ . "/../../views/$view.php");
+        $viewContent = file_get_contents(viewPath($view));
 
-        require __DIR__ . "/../../views/layout.php";
+        require viewPath('layout');
     }
 }
